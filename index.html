@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="author" content="Carlos Olivira">
+    <!-- Title Start -->
+    <title>Project initial</title>
+    <!-- Style Start -->
+    <link rel="stylesheet" href="assets/style/main.css">
+    <!-- Favicon Start -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>Calcule seu IMC</h1>
+
+        <section class="containerPri">
+            <form data-form>
+                <div class="group">
+                    <input id="peso" class="groupInput" type="text" data-input-peso required />
+                    <label for="peso">Peso</label>
+                </div>
+
+                <div class="group">
+                    <input id="altura" class="groupInput" type="text" data-input-altura required />
+                    <label for="altura">Altura</label>
+                </div>
+
+                <button type="submit" class="button b-blue">Enviar</button>
+            </form>
+        </section>
+
+        <section class="containerSeg">
+
+            <div class="effect">
+                <p data-text="?">?</p>
+                <img data-img />
+            </div>
+
+            <div class="containerText">
+                <textarea cols="50" rows="10" disabled data-resultado placeholder="Resultado"></textarea>
+            </div>
+        </section>
+
+        <svg class="leftC" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#3EE8E5"
+                d="M63.4,-49.4C78.9,-31.2,85.9,-5,80.9,19C75.8,42.9,58.7,64.6,36.4,75.2C14.1,85.8,-13.4,85.3,-36.3,74.6C-59.2,63.8,-77.7,42.9,-82.6,19.4C-87.6,-4.2,-79.1,-30.2,-63.1,-48.6C-47.1,-66.9,-23.5,-77.4,0.2,-77.6C24,-77.8,47.9,-67.5,63.4,-49.4Z"
+                transform="translate(100 100)" />
+        </svg>
+        <svg class="rightC" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#3EE8E5"
+                d="M63.4,-49.4C78.9,-31.2,85.9,-5,80.9,19C75.8,42.9,58.7,64.6,36.4,75.2C14.1,85.8,-13.4,85.3,-36.3,74.6C-59.2,63.8,-77.7,42.9,-82.6,19.4C-87.6,-4.2,-79.1,-30.2,-63.1,-48.6C-47.1,-66.9,-23.5,-77.4,0.2,-77.6C24,-77.8,47.9,-67.5,63.4,-49.4Z"
+                transform="translate(100 100)" />
+        </svg>
+        <svg class="topC" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#3EE8E5"
+                d="M63.4,-49.4C78.9,-31.2,85.9,-5,80.9,19C75.8,42.9,58.7,64.6,36.4,75.2C14.1,85.8,-13.4,85.3,-36.3,74.6C-59.2,63.8,-77.7,42.9,-82.6,19.4C-87.6,-4.2,-79.1,-30.2,-63.1,-48.6C-47.1,-66.9,-23.5,-77.4,0.2,-77.6C24,-77.8,47.9,-67.5,63.4,-49.4Z"
+                transform="translate(100 100)" />
+        </svg>
+
+    </main>
+
+    <footer class="author">
+        <p>&copy; 2021 | Carlos Oliveira</p>
+    </footer>
+
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
