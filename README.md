@@ -7,7 +7,7 @@ GIF
 
 ## Move.it
 
-O índice de massa corporal [IMC](https://pt.wikipedia.org/wiki/IMC) é uma medida internacional usada para calcular se uma pessoa está no peso ideal.
+O índice de massa corporal [IMC](https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal) é uma medida internacional usada para calcular se uma pessoa está no peso ideal.
 
 ## ♟️ Techs
 
