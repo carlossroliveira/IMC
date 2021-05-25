@@ -2,7 +2,7 @@
 
 ---
 
-GIF
+![IMC](https://user-images.githubusercontent.com/63623377/119552898-6a75ef00-bd71-11eb-9b0d-de36a393df08.gif)
 ---
 
 ## IMC
